@@ -10,12 +10,10 @@
 
 <div align="center">
 
-<p>
-    <strong>
-        Þemað mitt er:
-        Halloween x Jólinn.
-    </strong>
-<p>
+<strong>
+    <p>Þemað mitt er:</p>
+    <p>Halloween x Jólinn.</p>
+</strong>
 
 </div>
 
