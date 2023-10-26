@@ -1,0 +1,256 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body */
+/* background color is black and color is white, that can be overwritten in the future. */
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Header styles */
+.headersec {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.headersec h1 {
+    font-family: 'Creepster', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+/* Navigation styles */
+.navsec {
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.navsec a { 
+    font-family: 'Creepster', cursive;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: space-between;
+    margin: 50px;
+}
+
+
+/* Event detail and about event styles */
+.eventdetail {
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.aboutevent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventbox {
+    margin: 10px;
+    border: 1px solid #ffffff;
+    height: 350px; 
+}
+
+.eventbox h2 {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Creepster', cursive;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.eventbox p {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Creepster', cursive;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.adbox1 {
+    background-color: #6C0BA9;
+    width: 20%;
+    margin: 10px;
+    border: 2px solid #ffffff;
+}
+
+.adbox1 h1 {
+    font-family: 'roboto', cursive;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.adbox1 p {
+    font-family: 'roboto', cursive;
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adbox1 a {
+    color: #000000;
+}
+
+.adbox2 {
+    background-color: #2E5984;
+    width: 20%;
+    margin: 10px;
+    border: 2px solid #ffffff;
+}
+
+.adbox2 h1 {
+    font-family: 'roboto', cursive;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.adbox2 p {
+    font-family: 'roboto', cursive;
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adbox2 a {
+    color: #FFFF00;
+}
+
+.fullevent {
+    border: 2px solid #ffffff;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.hr-event {
+    border: 2px solid #ffffff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Menu items that go under full event details! */
+/* IMPORTANT */
+
+.menuitems {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* THIS IS A TEST! NOT OFFICIAL */
+
+.restaurante {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.restaurante h2 {
+    color : #ff0000;
+}
+
+.restaurante img {
+    margin-top: 30px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+
+.modal-content {
+    background-color: #ff0000;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888888;
+    width: 80%;
+}
+
+.modal-content label,
+.modal-content input {
+    margin-bottom: 10px;
+}
+
+.close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer bottom */
+.footer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+}
