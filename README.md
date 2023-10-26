@@ -17,6 +17,7 @@
 </strong>
 </div>
 
+<div align="center">
 <strong>
     <h1>Color Theme</h1>
     <h4>The Colors style on the website are mostly:</h4>
@@ -27,6 +28,14 @@
     <h3>Purple/Violet - #6C0BA9</h3>
     <h3>Gray-ish blue - #2E5984</h3>
 </strong>
+
+![Black](https://via.placeholder.com/15/000000/000000?text=+) `#000000`
+![White](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`
+![Orange](https://via.placeholder.com/15/FFA500/000000?text=+) `#FFA500`
+![Red](https://via.placeholder.com/15/FF0000/000000?text=+) `#FF0000`
+![Purple](https://via.placeholder.com/15/6C0BA9/000000?text=+) `#6C0BA9`
+![Gray-ish blue](https://via.placeholder.com/15/2E5984/000000?text=+) `#2E5984`
+
 </div>
 
 <div align="center">
