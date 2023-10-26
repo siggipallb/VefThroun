@@ -14,6 +14,5 @@
     <p>Þemað mitt er:</p>
     <p>Halloween x Jólinn.</p>
 </strong>
-
+<img src="sitemap.png" alt="Image Sitemap">
 </div>
-
