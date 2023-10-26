@@ -6,13 +6,14 @@
 
  <div align="center">
 
-<h2>Verkefni í vefþróun.</h2>
+<h2>Website project in vefThroun.</h2>
 
 <div align="center">
 
 <strong>
-    <p>Þemað mitt er:</p>
-    <p>Halloween x Jólinn.</p>
+    <p>My Theme is:</p>
+    <p>Halloween x Christmas.</p>
+    <p>Santascares, comes only once a year! Don't miss it.</p>
 </strong>
 </div>
 
@@ -29,7 +30,7 @@
 <strong>Wireframe and Sitemap</strong>
 <h2>Wireframe</h2>
 <img src="wireframe.png" alt="Image Wireframe">
-<h2>sitempa</h2>
-<img src="" alt="Image Sitemap">
+<h2>sitemap</h2>
+<img src="sitemap.png" alt="Image Sitemap">
 
 </div>
