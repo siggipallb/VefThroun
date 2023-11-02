@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /* Body */
 /* background color is black and color is white, that can be overwritten in the future. */
 body {
@@ -11,7 +7,9 @@ body {
 
 /* Header styles */
 .headersec {
-    width: 80%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 67%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -23,6 +21,7 @@ body {
     font-size: 50px;
     text-decoration: underline;
 }
+/* End of header styles, this is made for easier code reading.*/
 
 /* Navigation styles */
 .navsec {
@@ -30,8 +29,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border: 1px solid #ffffff;
-    border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
 }
@@ -44,134 +41,130 @@ body {
     margin: 50px;
 }
 
-
-/* Event detail and about event styles */
-.eventdetail {
-    width: 67%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    border: 1px solid #ffffff;
-    padding: 10px;
-    margin-top: 10px;
+.navsec a:hover {
+    color: #ff0000;
 }
 
-.aboutevent {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.eventbox {
-    margin: 10px;
-    border: 1px solid #ffffff;
-    height: 350px; 
-}
-
-.eventbox h2 {
-    width: 80%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Creepster', cursive;
-    font-size: 24px;
-    text-decoration: underline;
-}
-
-.eventbox p {
-    width: 80%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Creepster', cursive;
-    font-size: 16px;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    border: 1px solid #ffffff;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.adbox1 {
-    background-color: #6C0BA9;
-    width: 20%;
-    margin: 10px;
-    border: 2px solid #ffffff;
-}
-
-.adbox1 h1 {
-    font-family: 'roboto', cursive;
-    font-size: 24px;
-    text-decoration: underline;
-}
-
-.adbox1 p {
-    font-family: 'roboto', cursive;
-    font-size: 16px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.adbox1 a {
-    color: #000000;
-}
-
-.adbox2 {
-    background-color: #2E5984;
-    width: 20%;
-    margin: 10px;
-    border: 2px solid #ffffff;
-}
-
-.adbox2 h1 {
-    font-family: 'roboto', cursive;
-    font-size: 24px;
-    text-decoration: underline;
-}
-
-.adbox2 p {
-    font-family: 'roboto', cursive;
-    font-size: 16px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.adbox2 a {
-    color: #FFFF00;
-}
-
-.fullevent {
-    border: 2px solid #ffffff;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.hr-event {
+.navsec hr {
     border: 2px solid #ffffff;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+
+}
+/* End of navigation section, this is made for easier code reading.*/
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
 }
 
-/* Menu items that go under full event details! */
+.event-box1 {
+    width: 20%;
+    margin: 10px;
+    border: 2px solid #ffffff;
+}
+
+.event-box1 p {
+    font-family: 'roboto', cursive;
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-mainbox {
+    width: 40%;
+    margin: 10px;
+    border: 2px solid #ffffff;
+
+}
+
+.event-mainbox h2 {
+    font-family: 'roboto', cursive;
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-mainbox p { 
+    font-family: 'roboto', cursive;
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-mainbox-header {
+    text-align: center;
+    text-decoration: underline 2px;
+}
+
+.event-mainbox-header img {
+    border: 2px solid #ffffff;
+}
+/* Grid container for the events */
+/* IMPORTANT: This container holds the boxes under event! */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.box-containers1 {
+    margin-top: 30px;
+    border: 1px solid white;
+    background-color: #4682B4;
+    padding: 20px;
+}
+
+.box-containers1 a {
+    color: #ffffff;
+}
+
+.box-containers1 a:hover {
+    color: #ff0000;
+}
+
+.box-containers2 {
+    margin-top: 30px;
+    border: 1px solid white;
+    background-color: #6C0BA9;
+    padding: 20px;
+}
+
+.box-containers2 a {
+    color: #ffffff;
+}
+
+.box-containers2 a:hover {
+    color: #ff0000;
+}
+/* End of grid container */
+
+.event-box2 {
+    width: 20%;
+    margin: 10px;
+    border: 2px solid #ffffff;
+}
+
+.event-box2 p {
+    font-family: 'roboto', cursive;
+    font-size: 16px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Menu items that go under! */
 /* IMPORTANT */
 
 .menuitems {
@@ -203,6 +196,8 @@ body {
 
 /* The Modal (background) */
 .modal {
+    margin-left: 0;
+    margin-right: auto;
     display: none;
     position: fixed;
     width: 50%;
@@ -210,7 +205,7 @@ body {
     margin: auto;
     z-index: 1;
     left: 0;
-    right: 0;
+    right: 50%;
     top: 0;
     bottom: 0;
     overflow: auto;
@@ -218,7 +213,7 @@ body {
 
 
 .modal-content {
-    background-color: #ff0000;
+    background: linear-gradient(to right, #000000, #ff0000);
     margin: 10% auto;
     padding: 20px;
     border: 1px solid #888888;
@@ -250,7 +245,19 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     padding: 10px;
     margin-top: 10px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    margin: 10px;
 }
