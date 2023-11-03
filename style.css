@@ -261,3 +261,71 @@ body {
     border: 1px solid #ffffff;
     margin: 10px;
 }
+
+/* CSS for larger screens */
+@media (min-width: 1200px) {
+    .headersec, .navsec, .event-container, .footer {
+        width: 80%;
+    }
+    .event-box1, .event-box2 {
+        width: 20%;
+    }
+    .event-mainbox {
+        width: 40%;
+    }
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-box {
+        flex: 1;
+    }
+}
+
+/* CSS for medium screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .headersec, .navsec, .event-container, .footer {
+        width: 90%;
+    }
+    .event-box1, .event-box2, .event-mainbox {
+        width: 100%;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .footer {
+        width: 80%;
+    }
+    .footer-container {
+        border: transparent;
+        width: 100%;
+    }
+    .footer-box {
+        border: 2px solid white;
+        margin-right: auto;
+        margin-left: auto;
+        width: 40%;
+    }
+}
+
+/* CSS for small screens */
+@media (max-width: 767px) {
+    .headersec, .navsec, .event-container, .footer {
+        width: 100%;
+    }
+    .event-box1, .event-box2, .event-mainbox {
+        width: 100%;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .footer-container {
+        display: block;
+    }
+    .footer-box {
+        width: 100%;
+    }
+}
