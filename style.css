@@ -330,3 +330,23 @@ body {
         width: 100%;
     }
 }
+
+/* CSS for extra small screens */
+@media (max-width: 575px) {
+    .headersec, .navsec, .event-container, .footer {
+        width: 100%;
+    }
+    .event-box1, .event-box2, .event-mainbox {
+        width: 100%;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .footer-container {
+        display: block;
+    }
+    .footer-box {
+        width: 100%;
+    }
+}
+/* End of CSS for extra small screens */
