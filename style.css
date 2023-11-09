@@ -314,7 +314,13 @@ body {
 
 /* CSS for small screens */
 @media (max-width: 767px) {
-    .headersec, .navsec, .event-container, .footer {
+    .headersec {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navsec, .event-container, .footer {
         width: 100%;
     }
     .event-box1, .event-box2, .event-mainbox {
@@ -324,16 +330,26 @@ body {
         grid-template-columns: 1fr;
     }
     .footer-container {
-        display: block;
+        border: transparent;
+        width: 100%;
     }
     .footer-box {
-        width: 100%;
+        border: 2px solid white;
+        margin-right: auto;
+        margin-left: auto;
+        width: 40%;
     }
 }
 
 /* CSS for extra small screens */
 @media (max-width: 575px) {
-    .headersec, .navsec, .event-container, .footer {
+    .headersec {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border-color: transparent;
+    }
+    .navsec, .event-container, .footer {
         width: 100%;
     }
     .event-box1, .event-box2, .event-mainbox {
@@ -342,11 +358,23 @@ body {
     .grid-container {
         grid-template-columns: 1fr;
     }
+    .footer {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .footer-container {
-        display: block;
+        display: flex;
+        border: transparent;
+        margin-left: auto;
+        margin-right: auto;
     }
     .footer-box {
-        width: 100%;
+        flex: 1;
+        border: 2px solid white;
+        margin-right: auto;
+        margin-left: auto;
+        width: 10%;
     }
 }
 /* End of CSS for extra small screens */

@@ -1,0 +1,83 @@
+/* Body covers the website except if i overwrite something.*/
+body {
+    background-color: #000000;
+    color: #ff0000;
+    font-family: 'creepster', cursive;
+}
+/* end of the body */
+
+/* Header section, called .headersec */
+.header_sec {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_sec h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.header_sec h2 {
+    font-size: 14px;
+    text-align: center;
+}
+/* end of headersec */
+
+.redhr {
+    color: #ff0000;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Rd hr was added! Testing quality.*/
+
+/* Information section has been created */
+.information_sec {
+    border: 2px #ffffff;
+    border-radius: 10px;
+}
+
+/* container for the information section */
+.info_container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 20px;
+}
+
+ /* I am using grid instead of flex, why? idk i want to try it! */
+.info_about_box {
+    grid-column: 1;
+    border: 0.2dvb solid #ffffff;
+}
+ 
+.info_main_box {
+    grid-column: 2;
+    border: 0.2dvb solid #ffffff;
+}
+
+.images_section {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    width: 80%;
+}
+
+.img_box1 {
+
+}
+
+.img_box2 {
+    
+}
+
+.img_box3 {
+    
+}
