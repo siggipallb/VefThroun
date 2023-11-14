@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="santascares-favicon.ico" type="image/x-icon" sizes="48x48">
+    <link rel="stylesheet" href="style_signup.css">
+    <title>Santascares</title>
+</head>
+<body>
+    
+    <div class = "container-nav">
+        <div class = "navbar">
+           <div class = "header">
+           
+              <div class = "menu_icon" id = "ham_burger">
+                 <div> </div>
+                 <div> </div>
+                 <div> </div>
+              </div>
+              <div class = "text"> Santascares </div>
+           </div>
+        
+        </div>
+        <div class = "menu_items" id = "menu_items">
+           <a href = "about.html">About</a>
+           <a href="index.html">Home</a>
+           <p>Something is off</p>
+        </div>
+     </div>
+  </body>
+  <script>
+     let menu = document.getElementById('ham_burger');
+     let items = document.getElementById('menu_items');
+     
+     menu.addEventListener('click', () => {
+        if (items.style.display != "none") {
+           items.style.display = "none";
+        } else {
+           items.style.display = "flex";
+        }
+     })
+  </script>
+
+    <section>
+        <header class="header_sec">
+            <h1><a href="https://media.istockphoto.com/id/1334434982/photo/scary-ghost-on-dark-background.jpg?s=2048x2048&w=is&k=20&c=iMzlpuAW266hOHFJYvpvSJbi5RVWvDqfQMoctrcasGY=">Sign-up</a></h1>
+        </header>
+    </section>
+
+    <section>
+        <div class="grid-container">
+            <aside class="left-sidebar">Left Sidebar
+                <p>In the shadowed realm where whispers wane,</p>
+                <p>Where the living meet the realm of the slain,</p>
+                <p>A gathering looms, stark and bare,</p>
+                <p>A summoning, a spectral dare.</p>
+                <br>
+                <p>Hearken, traveler, to this morose verse,</p>
+                <p>Where boundaries blur, the cosmos traverse.</p>
+                <p>In the hush of night, under a moonless sky,</p>
+                <p>Where echoes of the departed softly sigh.</p>
+            </aside>
+            <!--SPACE BETWEEN-->
+            <main class="main-content">Main Content
+                <section class="main-container">
+                    <div >
+                        <p>Enter the fOld of Santascares, wheRe shadows rEign,</p>
+                        <p>InscriBe yOur essence, ignore the whispeRing bane.</p>
+                        <p>The coNtract awaits, its lInes blurred with Dread,</p>
+                        <p>A covenAnt with the silent voiCes of the dead.</p>
+                        <br>
+                        <p>DeePer still, the Murmurs grow, a cacoPhonous choir,</p>
+                        <p>They hisS of secrets, of deSire, of a funEral pyre.</p>
+                        <p>With eacH line, the whiSpers curl around your miNd's eye,</p>
+                        <p>"Join us, Join us," they becKon, with a gHostly sigh.</p>
+                    </div>
+                    <div>
+                        <p>The vOices, thEy promise, they leer, thEy jeer,</p>
+                        <p>ScribbliNg madness, the texT begins to sMEar.</p>
+                        <p>What was the PurpoSe? The ink, iT bleeds,</p>
+                        <p>A symPhony of TerrOr, as your sanIty recedes.</p>
+                        <br>
+                        <p>Chatter tUrns to scReams, the scReams to rOars,</p>
+                        <p>The paGe, a canvas of hOrrors it pours.</p>
+                        <p>You've forgOtten, haven't you, in the dArk's embrace?</p>
+                        <p>Lost in the cacoPhony, goNe without a trace.</p>
+                        <br>
+                        <p>The cOntract, incoMplete, a tale of the dEranged,</p>
+                        <p>WelcOme to Santascares, forEver chAnged.</p>
+                    </div>
+                    </h6><section class="bryan">
+                        <!-- Trigger button to open the modal -->
+                        <button id="openModalBtn">Brian are you here?</button>
+                    
+                        <!-- The modal -->
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h2>Last Letter from Brian's Father</h2>
+                                <p>
+                                    Dear Brian,<br>
+                                    I hope you can forgive me for the darkness that overcame me. The voices took hold, and I lost control. My actions were unforgivable. Know that I love you, always have, and always will. I pray you find peace beyond this world.
+                                    Brian, you know what happened, dad was mad i couldn't take care of you and if i couldn't take care of you no one could, i had to.. we will soon meet.
+                                </p>
+                            </div>
+                        </div>
+                        <script>
+                            const mobileMenu = document.querySelector('.mobile-menu');
+                            const hamburger = document.querySelector('.hamburger');
+                            const menuItems = document.querySelector('.menu-items');
+        
+                            // Add click event listener to the hamburger icon
+                            hamburger.addEventListener('click', () => {
+                                menuItems.classList.toggle('active');
+                            });
+        
+                            // Add click event listener to close the menu when clicking outside
+                            document.addEventListener('click', (event) => {
+                                if (!mobileMenu.contains(event.target)) {
+                                    menuItems.classList.remove('active');
+                                }
+                            });
+                        </script>
+                    </section>
+                    
+                    <script>
+                        // JavaScript code here
+                        // Get the modal and the button that opens it
+                        var modal = document.getElementById("myModal");
+                        var btn = document.getElementById("openModalBtn");
+                    
+                        // Get the <span> element that closes the modal
+                        var span = document.getElementsByClassName("close")[0];
+                    
+                        // When the user clicks the button, open the modal
+                        btn.onclick = function() {
+                            modal.style.display = "block";
+                        }
+                    
+                        // When the user clicks on <span> (x), close the modal
+                        span.onclick = function() {
+                            modal.style.display = "none";
+                        }
+                    
+                        // When the user clicks anywhere outside of the modal, close it
+                        window.onclick = function(event) {
+                            if (event.target == modal) {
+                                modal.style.display = "none";
+                            }
+                        }
+                    </script><h6>
+                </section>
+            </main>
+            <!--SPACE BETWEEN-->
+            <aside class="right-sidebar">Right Sidebar
+                <p>In the realm where light and laughter thrive,</p>
+                <p>Where the living dance, and joys arrive,</p>
+                <p>A gathering bright, with warmth and cheer,</p>
+                <p>A celebration, a joyful premiere.</p>
+                <br>
+                <p>Listen, traveler, to this vibrant verse,</p>
+                <p>Where life's colors vividly disperse.</p>
+                <p>In the glow of day, under a sun-kissed sky,</p>
+                <p>Where melodies of joy merrily fly.</p>
+            </aside>
+        </div>        
+    </section>
+
+    <section class="container">
+        <h1>The Mysterious Disappearance of Brian</h1>
+        <div class="accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">The Vanishing Act</h2>
+                <div class="accordion-content">
+                    <p>On a foggy night, in the small town of <span class="coordinates">40.7128° N, 74.0060° W</span>, something sinister occurred. Brian, a young man full of promise, mysteriously vanished without a trace.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">The Enigmatic Timestamp</h2>
+                <div class="accordion-content">
+                    <p>The clock read <span class="timestamp">1647286736</span> in UNIX time when he was last seen. As days turned to weeks, a series of cryptic numbers surfaced:</p>
+                    <p><span class="hidden-message">9 4 4 20 9 4 2 18 9 1 4 2 18 6 1 20 8 1 20 20 18 1 9 1 14</span></p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">Article 9.4.4.4: Unveiling the Message</h2>
+                <div class="accordion-content">
+                    <p>Deciphered, they spell out, "I did it Brian father." The town's secrets remained buried, and Brian's fate remains a mystery to this day.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">The Quest for Answers</h2>
+                <div class="accordion-content">
+                    <p>As investigators combed through the evidence, they discovered a cryptic note hidden in Brian's room. It contained a set of coordinates: <span class="coordinates">37.7749° N, 122.4194° W</span></p>
+                    <p>Could these coordinates lead to answers about Brian's disappearance?</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            // Get all accordion headers
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
+        
+            // Add click event listeners to each header
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', () => {
+                    const accordionItem = header.parentElement;
+                    accordionItem.classList.toggle('active');
+                });
+            });
+        </script>
+    </section>
+    
+    </nav>
+    </body>
+    </html>
+    
