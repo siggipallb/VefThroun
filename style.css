@@ -6,6 +6,25 @@ body {
     font-family: 'Creepster', cursive;
 }
 
+@font-face {
+    font-family: 'Icomoon'; /* Provide a name for your font-family */
+    src:  url('fonts/icomoon.eot?uhsmln'); /* IE9 Compat Modes */
+    src:  url('fonts/icomoon.eot?uhsmln#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('fonts/icomoon.ttf?uhsmln') format('truetype'), /* Safari, Android, iOS */
+          url('fonts/icomoon.woff?uhsmln') format('woff'), /* Modern Browsers */
+          url('fonts/icomoon.svg?uhsmln#icomoon') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.icon-example {
+    font-family: 'Icomoon';
+    font-size: 24px; /* Example size */
+    color: #333; /* Example color */
+}
+
+
 /* Header styles */
 .headersec {
     border: 1px solid #ffffff;
