@@ -21,7 +21,7 @@ body {
 .icon-example {
     font-family: 'Icomoon';
     font-size: 24px; /* Example size */
-    color: #333; /* Example color */
+    color: #ffffff; /* Example color */
 }
 
 
@@ -258,6 +258,84 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+
+
+/* NEW! SLIDEHOW */
+.slideshow {
+    padding: 0;
+    margin: auto;
+    justify-content: center;
+    background-color: transparent;
+    width: 1200px; /* Set the width of the slideshow container */
+}
+
+.slideshow h1{
+    margin-top: 50px;
+    margin-left: auto; /* Center the h1 horizontally */
+    margin-right: auto;
+    font-size: 60px;
+    font-family: 'Karla', sans-serif;
+    font-weight: lighter;
+}
+
+.slider-frame{
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: auto; /* Center the slider frame horizontally */
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/*---------- SLIDE ANIMATION --------------*/
+
+@keyframes slide_animation{
+    0% {left:0px;}
+    16.66% {left:-1200px;} /* Change from 10% to 16.66% for 6 images */
+    33.33% {left:-2400px;} /* Change from 20% to 33.33% for 6 images */
+    50% {left:-2400px;}
+    66.66% {left:-3600px;} /* Change from 40% to 66.66% for 6 images */
+    83.33% {left:-3600px;}
+    100% {left:0px;}
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    16.66% {left:-1200px;} /* Change from 10% to 16.66% for 6 images */
+    33.33% {left:-2400px;} /* Change from 20% to 33.33% for 6 images */
+    50% {left:-2400px;}
+    66.66% {left:-3600px;} /* Change from 40% to 66.66% for 6 images */
+    83.33% {left:-3600px;}
+    100% {left:0px;}
+}
+
+.slide-images{
+    width: 4800px; /* Change from 3600px to 4800px for 6 images */
+    height: 800px;
+    margin: 0 auto; /* Center the slide images horizontally */
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 22s; /* Change from 33s to 50s for 6 images */
+    animation-duration: 50s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.img-container{
+    height: 400px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+/* Stops here */
+
 
 /* Footer bottom */
 .footer {
