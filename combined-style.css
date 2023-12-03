@@ -39,7 +39,7 @@ input[type=email],input[type=number],input[type=text],textarea{width:100%;paddin
 .form-responsive,.table-responsive{width:100%}
 }
 body{background-color:#000;color:#fff;font-family:Creepster,cursive}
-@font-face{font-family:Icomoon;src:url(/home/boi/Vef/VefThroun/fonts/icomoon.eot?uhsmln);src:url(/home/boi/Vef/VefThroun/fonts/icomoon.eot?uhsmln#iefix) format('embedded-opentype'),url(/home/boi/Vef/VefThroun/fonts/icomoon.ttf?uhsmln) format('truetype'),url(/home/boi/Vef/VefThroun/fonts/icomoon.woff?uhsmln) format('woff'),url(/home/boi/Vef/VefThroun/pages/icomoon.svg?uhsmln#icomoon) format('svg');font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Icomoon;src:url(./fonts/icomoon.eot?uhsmln);src:url(./fonts/icomoon.eot?uhsmln#iefix) format('embedded-opentype'),url(./fonts/icomoon.ttf?uhsmln) format('truetype'),url(./fonts/icomoon.woff?uhsmln) format('woff'),url(./icomoon.svg?uhsmln#icomoon) format('svg');font-weight:400;font-style:normal;font-display:block}
 .icon-example{font-family:Icomoon;font-size:24px;color:#fff}
 .headersec{border:1px solid #fff;border-radius:10px;width:67%;margin-left:auto;margin-right:auto;text-align:center;padding:10px}
 .headersec h1{font-family:Creepster,cursive;font-size:50px;text-decoration:underline}
@@ -144,7 +144,7 @@ body{background-color:#000;color:#fff;font-family:Creepster,cursive}
 .header_sec h1{color:red;text-align:center;font-size:24px;text-decoration:line-through}
 .grid-container{display:grid;grid-template-columns:1fr 3fr 1fr;height:100vh;width:80%;margin:auto}
 .left-sidebar,.right-sidebar{background:linear-gradient(to bottom,red,#800);padding:20px}
-.main-content{background-image:url(/home/boi/Vef/VefThroun/images/meet_the_reaper.png);padding:20px}
+.main-content{background-image:url(./images/meet_the_reaper.png);padding:20px}
 .main-container{display:grid;grid-template-columns:1fr 1fr;gap:50px;margin:0 auto;max-width:800px}
 .main-container div{padding:10px}
 .main-container p{margin:0 0 10px 0;line-height:1.5}
