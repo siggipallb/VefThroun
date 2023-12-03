@@ -8,11 +8,11 @@ body {
 
 @font-face {
     font-family: 'Icomoon'; /* Provide a name for your font-family */
-    src:  url('fonts/icomoon.eot?uhsmln'); /* IE9 Compat Modes */
-    src:  url('fonts/icomoon.eot?uhsmln#iefix') format('embedded-opentype'), /* IE6-IE8 */
-          url('fonts/icomoon.ttf?uhsmln') format('truetype'), /* Safari, Android, iOS */
-          url('fonts/icomoon.woff?uhsmln') format('woff'), /* Modern Browsers */
-          url('fonts/icomoon.svg?uhsmln#icomoon') format('svg'); /* Legacy iOS */
+    src:  url('/home/boi/Vef/VefThroun/fonts/icomoon.eot?uhsmln'); /* IE9 Compat Modes */
+    src:  url('/home/boi/Vef/VefThroun/fonts/icomoon.eot?uhsmln#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('/home/boi/Vef/VefThroun/fonts/icomoon.ttf?uhsmln') format('truetype'), /* Safari, Android, iOS */
+          url('/home/boi/Vef/VefThroun/fonts/icomoon.woff?uhsmln') format('woff'), /* Modern Browsers */
+          url('/home/boi/Vef/VefThroun/fonts/icomoon.svg?uhsmln#icomoon') format('svg'); /* Legacy iOS */
     font-weight: normal;
     font-style: normal;
     font-display: block;
